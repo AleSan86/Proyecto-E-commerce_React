@@ -1,12 +1,16 @@
 # Proyecto E-Commerce - React App
 
-Proyecto de ecommerce con React para curso de FullStack de CoderHouse.
+## Caraterísticas de desarrollo
 
-## Available Scripts
-
-In the project directory, you can run:
+### Tipo de sistema: Aplicación web
+Lenguajes: HTML | CSS | JS
+Librerías: SweetAlert2 | Toastify
+### Descripción general
+Página web para gestionar un e-commerce.
+Confeccionada para la materia de "React" de CoderHouse.
 
 -------------------------------------------------------------------------------------------------------
+
 (Generado automáticamente)
 
 # Getting Started with Create React App
