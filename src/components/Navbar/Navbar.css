@@ -1,0 +1,10 @@
+.navbar {
+    padding: 20px;
+  }
+
+  #logo {
+    background-color: transparent;
+    margin-right: 25px;
+    width: 60px;
+    height: 55px;
+  }
