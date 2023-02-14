@@ -1,3 +1,14 @@
+# Proyecto E-Commerce - React App
+
+Proyecto de ecommerce con React para curso de FullStack de CoderHouse.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+-------------------------------------------------------------------------------------------------------
+(Generado automáticamente)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
