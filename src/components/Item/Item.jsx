@@ -31,7 +31,7 @@ const Item = () => {
               <div className='text-center alert alert-warning' role="alert" >
               <div className="card-producto col-4 col-md-6 col-sm-12 m-4" 
                 style={{width: '18rem'}} key={producto.id}>
-                <img src={producto.img} className="card-img-top w-100" />
+                <img src={producto.imagen} className="card-img-top w-100" />
                 <a href="#!">
                   <div className="mask">
                     <div className="d-flex justify-content-start align-items-end h-100">

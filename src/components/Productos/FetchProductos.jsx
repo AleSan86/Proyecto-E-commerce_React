@@ -18,7 +18,7 @@ const FetchProductos = () => {
             productos.map( p => (
             <div className="card-producto col-4 col-md-6 col-sm-12 m-4" 
                      key={p.id}>
-                <img src={p.img} className="card-img-top w-100 image-box" />
+                <img src={p.imagen} className="card-img-top w-100 image-box" />
                 <a href="#!">
                     <div className="mask">
                         <div className="d-flex justify-content-start align-items-end h-100">

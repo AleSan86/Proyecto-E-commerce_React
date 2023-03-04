@@ -10,21 +10,10 @@ import Nabvar from './components/Navbar/Nabvar';
 import Categoria from './components/Categoria/Categoria';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
-
-    <BrowserRouter>
-      <Nabvar />
-
-      <Routes>
-        <Route exact path="/" element={<App />} />
-        <Route exact path="/contacto" element={<Contacto />} />
-        <Route exact path="/producto/:id" element={<Item />} />
-        <Route exact path='/categoria/:categoriaId' element={<Categoria />} />
-      </Routes>
-    
-    </BrowserRouter>
-
+      <App />
   </React.StrictMode>
 );
 
