@@ -3,13 +3,19 @@
 ## Caraterísticas de desarrollo
 
 ### Tipo de sistema: Aplicación web
-Lenguajes: HTML | CSS | JS
-Librerías: SweetAlert2 | Toastify
+Lenguajes: HTML | CSS | JS | React
+### Alojamiento: web
+Firebase / Firestore
+
 ### Descripción general
 Página web para gestionar un e-commerce.
-Confeccionada para la materia de "React" de CoderHouse.
+Confeccionada para la materia "React" de CoderHouse.
+
+
 
 -------------------------------------------------------------------------------------------------------
+
+
 
 (Generado automáticamente)
 
