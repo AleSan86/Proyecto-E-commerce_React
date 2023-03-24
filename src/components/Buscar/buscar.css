@@ -1,0 +1,16 @@
+.dropdownSearch {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+
+.dropdownSearch:empty {
+    border: none;
+}
+
+.dropdownSearch-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+}

@@ -3,12 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Contacto from './components/Contacto/Contacto';
-import Item from './components/Item/Item';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nabvar from './components/Navbar/Nabvar';
-import Categoria from './components/Categoria/Categoria';
 
+/* Firebase */
+import { initializeApp } from "firebase/app";
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD1-SjKcU9ISlN63aScG_rycW8fX8Ou4zk",
+  authDomain: "react-e-commerce-25981.firebaseapp.com",
+  projectId: "react-e-commerce-25981",
+  storageBucket: "react-e-commerce-25981.appspot.com",
+  messagingSenderId: "874303337162",
+  appId: "1:874303337162:web:ca201b2000736161707a33"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
