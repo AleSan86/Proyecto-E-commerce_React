@@ -1,0 +1,67 @@
+[
+        {
+            "id": 1,
+            "nombre": "Arroz",
+            "marca": "Asahi",
+            "descripcion": "Bolsa de arroz japonés (doble carolina) de 30kg",
+            "detalle": "nuevo",
+            "categoria": 2,
+            "imagen": "https://www.casachinaoficial.com/wp-content/uploads/2020/10/%E6%97%A5%E6%9C%AC%E7%B1%B3Kometo-Arroz-Fortuna-x30kg.jpg",
+            "precio": "1.000"
+        },
+        {
+            "id": 2,
+            "nombre": "Bonito",
+            "marca": "Bonito Flake",
+            "descripcion": "Hojuelas de bonito",
+            "categoria": 2,
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn6tmfA6aWZsgjFyZRH3G_Kb3xtiTZBiPUgA&usqp=CAU",
+            "precio": "1.965"
+        },
+        {
+            "id": 3,
+            "nombre": "Tonkatsu",
+            "marca": "Oishi",
+            "descripcion": "Salsa Tonkatsu",
+            "categoria": 2,
+            "imagen": "https://elbanquito.com.ar/wp-content/uploads/2020/06/kikkoman-salsa-tonkatsu-el-banquito-market.jpg",
+            "precio": "2.500"
+        },
+        {
+            "id": 4,
+            "nombre": "Arrocera japonesa",
+            "marca": "Zojirushi",
+            "descripcion": "Olla para cocción de arroz japonés",
+            "detalle": "usado",
+            "categoria": 1,
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSGSZmf6XTcJyNuY19rQ1DIgQa0X3lvdunU2zAMRAKGOYOfdLPSntoLn7vqcoWbraBJE&usqp=CAU",
+            "precio": "60.505"
+        },
+        {
+            "id": 5,
+            "nombre": "Vegeta M",
+            "marca": "Banpresto",
+            "descripcion": "Figura de Vegeta - 20cm",
+            "categoria": 1,
+            "imagen": "https://d3nt9em9l1urz8.cloudfront.net/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/b/z/bzbp18461-1.jpg",
+            "precio": "10.905"
+        },
+        {
+            "id": 6,
+            "nombre": "Blue Blood - X-Japan",
+            "marca": "Sony Records",
+            "descripcion": "CD original X-Japan - Blue Blood (1989)",
+            "categoria": 3,
+            "imagen": "https://www.metalkingdom.net/album-photo/2018/07/6441-X-Japan-Blue-Blood.jpg",
+            "precio": "15.000"
+        },
+        {
+            "id": 7,
+            "nombre": "Ray - L'Arc~en~Ciel",
+            "marca": "Sony Records",
+            "descripcion": "CD original L'Arc~en~Ciel - Ray (1999)",
+            "categoria": 3,
+            "imagen": "https://i.discogs.com/WEr0kvGeRqrCeNCcj-oHubL8AdwUM7WMk4ZvIIwRiyE/rs:fit/g:sm/q:90/h:523/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0ODY5/NDU4LTE1ODMxNTYy/MTItOTEyMS5qcGVn.jpeg",
+            "precio": "12.000"
+        }
+]
