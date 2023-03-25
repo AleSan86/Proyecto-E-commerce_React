@@ -11,7 +11,8 @@ import {
   where,
 } from "firebase/firestore";
 
-const ItemListContainer = ({ handleClick, handleItem }) => {
+const ItemListContainer = ({ handleClickPadre, handleItem }) => {
+
   const { id } = useParams(0);
   const { categoria } = useParams();
   const [items, setItems] = useState([]);
@@ -75,9 +76,9 @@ const ItemListContainer = ({ handleClick, handleItem }) => {
                 {items.length > 0 ? (
                   items.map((p) => (
                     <>
-                         <section style={{backgroundColor: "#eee", width: "100%"}}>
-                     <Item p={p} handleClick={handleClick} handleDetalles={handleDetalles}/> 
-          </section>
+                      <section key={p.id} style={{backgroundColor: "#eee", width: "100%"}}>
+                       <Item p={p} handleClick={handleClickPadre} handleDetalles={handleDetalles}/> 
+                      </section>
                     </>
                   ))
                 ) : (
@@ -94,7 +95,7 @@ const ItemListContainer = ({ handleClick, handleItem }) => {
                         data-mdb-ripple-color="light">
                         <img src={itemSeleccionado.img}
                           style={{borderTopLeftRadius: "15px", borderTopRightRadius: "15px"}} className="img-fluid"
-                          alt="Laptop" />
+                          alt={itemSeleccionado.nombre} />
                         <a href="#!">
                           <div className="mask"></div>
                         </a>
@@ -119,7 +120,7 @@ const ItemListContainer = ({ handleClick, handleItem }) => {
                       <div className="card-body">
                         <div className="d-flex justify-content-between align-items-center pb-2 mb-1">
                           <a href="#!" className="text-dark fw-bold" onClick={() => handleVolver()}>Volver</a>
-                          <button type="button" className="btn btn-primary" onClick={() => handleClick(itemSeleccionado)}>Agregar</button>
+                          <button type="button" className="btn btn-primary" onClick={() => handleClickPadre(itemSeleccionado)}>Agregar</button>
                         </div>
                       </div>
                     </div>

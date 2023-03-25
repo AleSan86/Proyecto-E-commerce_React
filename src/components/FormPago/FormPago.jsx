@@ -87,7 +87,7 @@ const FormPago = ({cart, setCart, handleChange}) => {
 
     addDoc(comprasCollection, compra)
     .then((docRef) => {
-      mostrarAlerta()
+       mostrarAlerta()
     })
     .catch((e) => {
       mostrarError()
@@ -208,16 +208,18 @@ const FormPago = ({cart, setCart, handleChange}) => {
                                     <div className="row mb-4">
                                         <div className="col">
                                         <div className="form-outline">
-                                            <input type="text" value={nombreCliente} 
+                                            <input type="text" value={nombreCliente} required
                                             onChange={(e) => setNombreCliente(e.target.value)}
+                                            minLength="4" maxLength="20"
                                             className="form-control" />
                                             <label className="form-label">Nombre</label>
                                         </div>
                                         </div>
                                         <div className="col">
                                         <div className="form-outline">
-                                            <input type="number" value={telefonoCliente}
+                                            <input type="number" value={telefonoCliente} required
                                             onChange={(e) => setTelefonoCliente(e.target.value)}
+                                            minLength="6"
                                             className="form-control" />
                                             <label className="form-label">Telefono</label>
                                         </div>
@@ -225,7 +227,7 @@ const FormPago = ({cart, setCart, handleChange}) => {
                                     </div>
 
                                     <div className="form-outline mb-4">
-                                        <input type="email" value={emailCliente} 
+                                        <input type="email" value={emailCliente} required
                                         onChange={(e) => setEmailCliente(e.target.value)}
                                         className="form-control" />
                                         <label className="form-label">Email</label>
