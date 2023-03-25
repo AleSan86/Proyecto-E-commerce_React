@@ -76,8 +76,8 @@ function App() {
 
         <Routes>
           {/* Muestro por defecto el ItemListContainer */}
-          <Route exact path="/" element={<ItemListContainer handleClick={handleClick} item={item} handleItem={handleItem}/>}  />
-          <Route exact path='/categoria/:categoria' element={<ItemListContainer />} />
+          <Route exact path="/" element={<ItemListContainer handleClickPadre={handleClick} item={item} handleItem={handleItem}/>}  />
+          <Route exact path='/categoria/:categoria' element={<ItemListContainer handleClickPadre={handleClick} item={item} handleItem={handleItem} />} />
           <Route exact path="/formPago" element={<FormPago cart={cart} setCart={setCart} handleChange={handleChange} />} />
           <Route exact path="/producto/:id" element={item.length > 0 && <Item item={item} handleItem={handleItem} />}  />
         </Routes>

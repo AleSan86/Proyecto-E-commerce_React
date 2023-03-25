@@ -1,6 +1,7 @@
 import React from "react";
 
 const Item = ({ p, handleClick, handleDetalles }) => {
+
   return (
     <>
       <div className="container py-5" key={p.id}>
@@ -13,7 +14,7 @@ const Item = ({ p, handleClick, handleDetalles }) => {
                     className="col-md-12 col-lg-3 col-xl-3 mb-4 mb-lg-0"
                   >
                     <div className="bg-image hover-zoom ripple rounded ripple-surface">
-                      <img src={p.img} className="w-100" />
+                      <img src={p.img} className="w-100" alt={p.nombre} />
                       <a href="#!">
                         <div className="hover-overlay">
                           <div
